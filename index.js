@@ -111,3 +111,7 @@ function generatePW() {
   }
   return password;
 }
+
+function savePW1() {
+  var save1 = generatedPw1Element.textContent;
+}

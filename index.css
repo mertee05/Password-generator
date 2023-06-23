@@ -1,0 +1,62 @@
+body {
+  background-color: #2b4162;
+  font-family: "Assistant", sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 15px;
+}
+#generate-pw {
+  font-family: "Assistant", sans-serif;
+  padding: 10px 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: none;
+}
+.password-button {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  padding: 0px 60px;
+  /* width: 440px; */
+}
+
+.generated-pw-button {
+  background-color: #385f71;
+  /* width: 200px; */
+  /* padding: 10px 10px; */
+  /* margin-right: 15px;
+  margin-left: 15px; */
+  /* height: 65px; */
+  border-radius: 5px;
+  padding: 15px;
+  width: 200px;
+}
+/* #generated-pw2 {
+  background-color: #385f71;
+  width: 150px;
+  padding: 20px 20px;
+  margin-left: 15px;
+} */
+.save-buttons {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 60px;
+}
+#save1 {
+  /* margin-right: 60px; */
+  font-family: "Assistant", sans-serif;
+  border-radius: 5px;
+  border: none;
+}
+#save2 {
+  /* margin-left: 60px; */
+  font-family: "Assistant", sans-serif;
+  border-radius: 5px;
+  border: none;
+}
+#card {
+  border: 5px wheat solid;
+  max-width: 600px;
+  height: auto;
+  border-radius: 5px;
+}
