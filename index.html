@@ -12,7 +12,7 @@
     <div id="card">
       <h1>Generate a</h1>
       <h2>random password</h2>
-      <p>Never use an insecure password again</p>
+      <p id="never">Never use an insecure password again</p>
       <button id="generate-pw" onclick="handleGeneratePwClick()">
         Generate passwords
       </button>
@@ -21,8 +21,12 @@
         <p class="generated-pw-button" id="generated-pw2"></p>
       </div>
       <div class="save-buttons">
-        <button id="save1" onclick="savePW1()">Save Password #1</button>
-        <button id="save2" onclick="savePW2()">Save Password #2</button>
+        <button id="save1" onclick="copyToClipboard1()">
+          Save Password #1
+        </button>
+        <button id="save2" onclick="copyToClipboard2()">
+          Save Password #2
+        </button>
       </div>
     </div>
   </body>

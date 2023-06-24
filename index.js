@@ -92,12 +92,12 @@ const characters = [
   "/",
 ];
 
-let generatedPw1Element = document.getElementById("generated-pw1");
-let generatedPw2Element = document.getElementById("generated-pw2");
+const generatedPw1Element = document.getElementById("generated-pw1");
+const generatedPw2Element = document.getElementById("generated-pw2");
 
 function handleGeneratePwClick() {
-  let generatedPW1 = generatePW();
-  let generatedPW2 = generatePW();
+  const generatedPW1 = generatePW();
+  const generatedPW2 = generatePW();
   generatedPw1Element.textContent = generatedPW1;
   generatedPw2Element.textContent = generatedPW2;
 }
@@ -105,13 +105,22 @@ function handleGeneratePwClick() {
 function generatePW() {
   let password = "";
   for (let i = 0; i < 16; i++) {
-    let randCharacter =
+    const randCharacter =
       characters[Math.floor(Math.random() * characters.length)];
     password += randCharacter;
   }
   return password;
 }
 
-function savePW1() {
-  var save1 = generatedPw1Element.textContent;
+function copyToClipboard1() {
+  const copyPW1 = generatedPw1Element.textContent;
+  navigator.clipboard.writeText(copyPW1).then(() => {
+    alert("Copied to clipboard");
+  });
+}
+function copyToClipboard2() {
+  const copyPW2 = generatedPw2Element.textContent;
+  navigator.clipboard.writeText(copyPW2).then(() => {
+    alert("Copied to clipboard");
+  });
 }

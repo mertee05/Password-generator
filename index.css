@@ -7,52 +7,66 @@ body {
 }
 #generate-pw {
   font-family: "Assistant", sans-serif;
-  padding: 10px 10px;
+  /* padding: 10px 10px; */
   font-size: 15px;
   border-radius: 5px;
-  border: none;
+  border: 1px black solid;
+  background-color: #64426a;
+  padding: 15px;
+  font-style: bold;
+  color: whitesmoke;
 }
 .password-button {
   display: flex;
   justify-content: space-between;
   margin-top: 15px;
   padding: 0px 60px;
-  /* width: 440px; */
+  height: 6.5%;
+  color: whitesmoke;
 }
-
+h1,
+h2 {
+  font-size: 35px;
+  color: #c4ae88;
+}
+#never {
+  font-size: 25px;
+  color: #131211;
+  font-style: bold;
+  color: #c4ae88;
+}
 .generated-pw-button {
   background-color: #385f71;
-  /* width: 200px; */
-  /* padding: 10px 10px; */
-  /* margin-right: 15px;
-  margin-left: 15px; */
-  /* height: 65px; */
   border-radius: 5px;
   padding: 15px;
   width: 200px;
+  border: 1px black solid;
 }
-/* #generated-pw2 {
-  background-color: #385f71;
-  width: 150px;
-  padding: 20px 20px;
-  margin-left: 15px;
-} */
+
 .save-buttons {
   display: flex;
   justify-content: space-around;
   padding: 15px 60px;
 }
 #save1 {
-  /* margin-right: 60px; */
   font-family: "Assistant", sans-serif;
   border-radius: 5px;
   border: none;
+  background-color: #64426a;
+  padding: 15px;
+  font-style: bold;
+  color: whitesmoke;
+  border: 1px black solid;
 }
 #save2 {
-  /* margin-left: 60px; */
   font-family: "Assistant", sans-serif;
   border-radius: 5px;
   border: none;
+  background-color: #64426a;
+  padding: 15px;
+  font-style: bold;
+  color: whitesmoke;
+  border: 1px black solid;
 }
 #card {
   border: 5px wheat solid;
